@@ -1,0 +1,11 @@
+4
+/ HomePage
+/profile ProfilePage
+/user/:id UserPage {id}
+/user/:userId/profile/:profileId UserProfile {userId,profileId}
+5
+/
+/profile
+/user/42
+/user/42/profile/52
+/settings
