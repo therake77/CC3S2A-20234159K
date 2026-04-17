@@ -46,7 +46,7 @@ Salida:
 #### Introducción
 `problema2.py` permite conocer el cliente más 'fiel' de cada socio de un conjunto de socios dados, usando estructuras de datos simples como diccionarios y conjuntos
 #### Estructura
-El programa consta de dos funciones para capturar datos cuya lógica es idéntica, y la única variante es de dónde leen los datos (terminal o archivo de texto)
+El programa consta de dos funciones desapara capturar datos cuya lógica es idéntica, y la única variante es de dónde leen los datos (terminal o archivo de texto)
 ```python
 def captureInputs()  -> tuple[dict[int, set[int]], dict[int, set[int]]]:...
 def readFromFile() -> tuple[dict[int, set[int]], dict[int, set[int]]]:...
